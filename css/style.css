@@ -22,7 +22,7 @@ font-weight: 200, 400, 600
 }
 
 html {
-    font-size: 15px;
+    font-size: 19px;
 }
 
 /* Base Styles */
@@ -37,7 +37,7 @@ span {
 
 /* Classes */
 .main-container {
-    margin: 4rem 20.6rem 4rem 20.6rem;
+    margin: 4rem 10rem 4rem 10rem;
 }
 
 .main-container .title {
@@ -48,7 +48,7 @@ span {
 .main-container .main-description {
     color: var(--neutral-color);
     font-size: 0.83rem;
-    max-width: 430px;
+    max-width: 550px;
     margin: 0.8rem auto 0 auto;
 }
 
@@ -68,7 +68,7 @@ span {
     border-radius: 5px;
     padding: 1.6rem;
     position: relative;
-    height: 205px;
+    height: 260px;
     transition: all 0.3s ease-in-out;
 }
 
