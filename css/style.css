@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/* 
+font-family: 'Poppins', sans-serif;
+font-weight: 200, 400, 600
+*/
+
+:root {
+    --primary-color-one: hsl(0, 78%, 62%); /* Red */
+    --primary-color-two: hsl(180, 62%, 55%); /* Cyan */
+    --primary-color-three: hsl(34, 97%, 64%); /* Orange */
+    --primary-color-four: hsl(212, 86%, 64%); /* Blue */
+    --dark-color: hsl(234, 12%, 34%); /* Very Dark Blue */
+    --neutral-color: hsl(229, 6%, 66%); /* Grayish Blue */
+    --light-color: hsl(0, 0%, 98%); /* Very Light Gray */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 15px;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
+    display: block;
+    font-weight: 600 !important;
+}
+
+/* Classes */
+.main-container {
+    margin: 4rem 20.6rem 4rem 20.6rem;
+}
+
+.main-container .title {
+    font-weight: 200;
+    color: var(--dark-color);
+}
+
+.main-container .main-description {
+    color: var(--neutral-color);
+    font-size: 0.83rem;
+    max-width: 430px;
+    margin: 0.8rem auto 0 auto;
+}
+
+/* Cards Container */
+.cards-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    margin-top: 3.5rem;
+}
+
+.cards-container .center-cards {
+    row-gap: 1.6rem;
+}
+
+.cards-container .cards {
+    box-shadow: 0 12px 25px -6px hsl(212, 35%, 82%);
+    border-radius: 5px;
+    padding: 1.6rem;
+    position: relative;
+    height: 205px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cards-container .cards:hover {
+    transform: translateY(-3%);
+    cursor: pointer;    
+}
+
+.cards-container .supervisor-card {
+    border-top: 3.8px solid var(--primary-color-two);
+    align-self: center;
+}
+.cards-container .team-card {
+    border-top: 3.8px solid var(--primary-color-one);    
+}
+.cards-container .karma-card {
+    border-top: 3.8px solid var(--primary-color-three);    
+}
+.cards-container .calculator-card {
+    border-top: 3.8px solid var(--primary-color-four);
+    align-self: center;  
+}
+
+.cards h2 {
+    font-size: 1.1rem;
+    color: var(--dark-color);
+}
+
+.cards p {
+    color: var(--neutral-color);
+    font-size: 0.73rem;
+    line-height: 1.7;
+    margin-top: 0.4rem;
+}
+
+.cards img {
+    position: absolute;
+    bottom: 1.8rem;
+    right: 1.8rem;
+    width: 55px;
+    height: 55px;
+}
+
+/* Media Queries */
+@media (max-width: 1280px) {
+    html {
+        font-size: 15px;
+    }
+
+    .main-container {
+        margin: 4rem 5rem 4rem 5rem;
+    }
+}
+
+/* Tablets and Under */
+@media (max-width: 768px) {
+    .main-container {
+        margin: 4rem 4rem 4rem 4rem;
+    }
+
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .main-container {
+        margin: 4rem 1.5rem 4rem 1.5rem;
+    }
+}
