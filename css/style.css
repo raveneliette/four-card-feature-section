@@ -55,18 +55,18 @@ span {
 /* Cards Container */
 .cards-container {
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.6rem;
+    gap: 1.8rem;
     margin-top: 3.5rem;
 }
 
 .cards-container .center-cards {
-    row-gap: 1.6rem;
+    row-gap: 1.8rem;
 }
 
 .cards-container .cards {
     box-shadow: 0 12px 25px -6px hsl(212, 35%, 82%);
     border-radius: 5px;
-    padding: 1.6rem;
+    padding: 1.8rem;
     position: relative;
     height: 260px;
     transition: all 0.3s ease-in-out;
