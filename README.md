@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/destop-view.png)
+![](./images/desktop-view.png)
 ![](./images/tablet-view.png)
 ![](./images/mobile-view.png)
 
