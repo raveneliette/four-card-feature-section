@@ -113,16 +113,6 @@ span {
 }
 
 /* Media Queries */
-@media (max-width: 1280px) {
-    html {
-        font-size: 15px;
-    }
-
-    .main-container {
-        margin: 4rem 5rem 4rem 5rem;
-    }
-}
-
 /* Tablets and Under */
 @media (max-width: 768px) {
     .main-container {
