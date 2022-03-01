@@ -27,6 +27,7 @@ html {
 
 /* Base Styles */
 body {
+    background-color: var(--light-color);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -131,5 +132,3 @@ span {
         width: 90%;
     }
 }
-
-/* put Background-color */
